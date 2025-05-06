@@ -20,10 +20,10 @@ variable "ami_id" {
 
 variable "key_name" {
   description = "SSH key name"
-  default     = "my-key-pair"
+  default     = "id_rsa"
 }
 
 variable "docker_image" {
   description = "Docker image to deploy"
-  default     = "yourusername/booster-django:latest"
+  default     = "moe404/booster-django:latest"
 }
