@@ -15,7 +15,7 @@ variable "public_subnet_cidr" {
 
 variable "ami_id" {
   description = "AMI ID for EC2 instance"
-  default     = "ami-0c55b159cbfafe1f0" # Ubuntu 20.04 LTS in us-east-1
+  default     = "ami-084568db4383264d4" # Ubuntu 20.04 LTS in us-east-1
 }
 
 variable "key_name" {
