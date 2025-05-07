@@ -18,11 +18,6 @@ variable "ami_id" {
   default     = "ami-084568db4383264d4" # Ubuntu 20.04 LTS in us-east-1
 }
 
-variable "key_name" {
-  description = "SSH key name"
-  default     = "id_rsa"
-}
-
 variable "docker_image" {
   description = "Docker image to deploy"
   default     = "moe404/booster-django:latest"
