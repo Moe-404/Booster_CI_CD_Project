@@ -95,8 +95,8 @@ resource "aws_instance" "app" {
               apt-get install -y docker.io
               systemctl start docker
               systemctl enable docker
-              docker pull ${var.docker_image}
-              docker run -d -p 8000:8000 ${var.docker_image}
+              sudo docker pull ${var.docker_image}
+              sudo docker run -d -p 8000:8000 ${var.docker_image}
               EOF
 }
 
